@@ -3,17 +3,16 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
+      <h2>ToDo List</h2>
       <header className="App-header">
-        <p>Todo</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Add
-        </a>
+        <input type="text" placeholder="To-Do Title"/>
+        <button class="App-link">+</button>
       </header>
+      <main>
+        <ul>
+          <li>Lista</li>
+        </ul>
+      </main>
     </div>
   );
 }

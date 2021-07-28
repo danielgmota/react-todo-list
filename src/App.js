@@ -29,7 +29,7 @@ function App() {
 
   return (
     <div className="App">
-      <h2>ToDo List</h2>
+      <h2>Daniel Mota's ToDo List</h2>
       <header className="App-header">
         <form>
           <input
